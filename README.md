@@ -20,4 +20,4 @@ A simple HTML/CSS component that scrolls a long image from top to bottom on hove
 - **Change container size**: Update `.scrolling-component` `width` and `height`
 - **Change scroll distance**: Update `calc(-100% + 200px)` (replace `200px` with your container height)
 
-Made with ❤️ using HTML & CSS By #Arshdeep Kaur Saini
+Made with ❤️ using HTML & CSS By <strong> Arshdeep Kaur Saini </strong> 
