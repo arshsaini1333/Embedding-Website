@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Auto Scrolling Image Card</title>
+    <style>
+        .parent {
+            display: flex;
+            height: 100vh;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .scrolling-component {
+            width: 45%;
+            height: 25rem;
+            overflow: hidden;
+            box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+        }
+        
+        .scrolling-image {
+            width: 100%;
+            transform: translateY(0);
+            transition: transform 24s linear;
+        }
+        
+        .scrolling-component:hover .scrolling-image {
+            transform: translateY(calc(-100% + 200px));
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="parent">
+        <div class="scrolling-component">
+            <img src='./sss1.png' alt="Scrolling" class="scrolling-image">
+        </div>
+    </div>
+
+</body>
+
+</html>
