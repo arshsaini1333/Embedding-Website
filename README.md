@@ -10,7 +10,7 @@ A simple HTML/CSS component that scrolls a long image from top to bottom on hove
 
 ## 🚀 How to Use
 1. Download or copy the `index.html` file.
-2. Replace `your-long-image.jpg` with your own tall image.
+2. Replace `sss1.png` with your own tall image.
 3. Adjust:
    - `.scrolling-component` `width` and `height` for your container size.
    - Animation duration (`14s`) for scroll speed.
