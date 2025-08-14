@@ -1,6 +1,6 @@
 # 🖼 Auto Scrolling Long Image Card
 
-A simple HTML/CSS component that continuously scrolls a long image from top to bottom and back, creating a smooth animation loop.
+A simple HTML/CSS component that scrolls a long image from top to bottom on hover and get back after mouse leaving back, creating a smooth animation loop.
  <!-- You can replace this with an actual gif/screenshot -->
 
 ## ✨ Features
